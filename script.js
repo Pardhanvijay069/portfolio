@@ -1,3 +1,5 @@
+import { EMAILJS_CONFIG } from './config.js';
+
 // ==================== Utility Functions ====================
 
 const debounce = (func, wait) => {
@@ -693,3 +695,4 @@ gsap.registerPlugin(ScrollTrigger);
 window.addEventListener('resize', () => {
     ScrollTrigger.refresh();
 });
+
